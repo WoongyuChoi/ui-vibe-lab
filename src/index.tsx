@@ -15,8 +15,10 @@ const Home = () => {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
+      <h1 className="text-3xl font-bold text-slate-900">
+        Vite + React + Tailwind
+      </h1>
+      <div className="min-h-screen flex items-center justify-center bg-slate-100">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
